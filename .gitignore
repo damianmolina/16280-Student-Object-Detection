@@ -1,0 +1,21 @@
+# Ignore build and install directories
+build/
+install/
+log/
+.colcon/
+.ros/
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+*.pyo
+# Ignore all image files
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.gif
+*.tiff
+
+# Ignore model file
+model.pth
