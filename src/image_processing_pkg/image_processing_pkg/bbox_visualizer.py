@@ -33,7 +33,7 @@ class BBoxVisualizer(Node):
         }
 
         # TODO: Log information that the BBox Visualizer Node was Initialized
-        self.get_logger().info()
+        self.get_logger().info("BBox Visualizer node started")
 
 
     def callback(self, image_msg, detections_msg):
